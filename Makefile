@@ -17,4 +17,6 @@ exec:
 	docker exec -it $(APP_NAME) /bin/sh
 test:
 	curl --noproxy "*" http://localhost:$(HOST_PORT)
+local:
+	python app/app.py
 
