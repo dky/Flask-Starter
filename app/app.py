@@ -6,9 +6,9 @@ app = flask.Flask(__name__)
 
 def get_latest_packages():
     return [
-        {'name': 'flask', 'version':  '1.2.3'},
-        {'name': 'sql-flask', 'version':  '2.3.4'},
-        {'name': 'password-crack', 'version':  '5.4.4'},
+        {'name': 'CatDog', 'version':  '1.2.3'},
+        {'name': 'CatDog', 'version':  '2.3.4'},
+        {'name': 'CatDog', 'version':  '5.4.4'},
     ]
 
 
